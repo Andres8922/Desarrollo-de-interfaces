@@ -1,0 +1,7 @@
+C:\Users\alumno\source\repos\Calculo\Calculo\bin\Debug\Calculo.exe.config
+C:\Users\alumno\source\repos\Calculo\Calculo\bin\Debug\Calculo.exe
+C:\Users\alumno\source\repos\Calculo\Calculo\bin\Debug\Calculo.pdb
+C:\Users\alumno\source\repos\Calculo\Calculo\obj\Debug\Calculo.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Calculo\Calculo\obj\Debug\Calculo.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Calculo\Calculo\obj\Debug\Calculo.exe
+C:\Users\alumno\source\repos\Calculo\Calculo\obj\Debug\Calculo.pdb
