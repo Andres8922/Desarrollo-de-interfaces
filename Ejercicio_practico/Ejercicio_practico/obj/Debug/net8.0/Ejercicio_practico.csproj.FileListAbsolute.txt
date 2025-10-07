@@ -1,0 +1,15 @@
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\bin\Debug\net8.0\Ejercicio_practico.exe
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\bin\Debug\net8.0\Ejercicio_practico.deps.json
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\bin\Debug\net8.0\Ejercicio_practico.runtimeconfig.json
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\bin\Debug\net8.0\Ejercicio_practico.dll
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\bin\Debug\net8.0\Ejercicio_practico.pdb
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.AssemblyInfoInputs.cache
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.AssemblyInfo.cs
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.csproj.CoreCompileInputs.cache
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.sourcelink.json
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.dll
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\refint\Ejercicio_practico.dll
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.pdb
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\Ejercicio_practico.genruntimeconfig.cache
+C:\Users\Andrés\source\repos\Ejercicio_practico\Ejercicio_practico\obj\Debug\net8.0\ref\Ejercicio_practico.dll
