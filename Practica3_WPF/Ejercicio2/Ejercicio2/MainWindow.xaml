@@ -1,0 +1,50 @@
+﻿<Window x:Class="Ejercicio2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel Margin="10">
+
+            <Label>
+                <Bold>¿Cuanto es dos más dos? (en caso de tener la respuesta correcta no vuelva a realizar otro intento)</Bold>
+            </Label>
+
+            <RadioButton >
+                <StackPanel Orientation="Horizontal">
+                     <TextBlock>Demasiado</TextBlock>
+                    <Image Source="C:\Users\alumno\Desktop\Practica3_WPF\img2.jpg" Width="30" Height="30" Margin="10,0,5,0"/>
+                </StackPanel>
+            </RadioButton>
+
+            <RadioButton >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>5</TextBlock>
+                    <Image Source="C:\Users\alumno\Desktop\Practica3_WPF\179657.jpg" Width="30" Height="30" Margin="10,0,5,0"/>
+                </StackPanel>
+            </RadioButton>
+
+            <RadioButton Margin="0,5">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>20</TextBlock>
+                    <Image Source="C:\Users\alumno\Desktop\Practica3_WPF\img3.jpg" Width="30" Height="30" Margin="10,0,5,0"/>
+                 </StackPanel>
+            </RadioButton>
+
+            <RadioButton  Name="correcto">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>4</TextBlock>
+                    <Image Source="C:\Users\alumno\Desktop\Practica3_WPF\img4.webp" Width="30" Height="30" Margin="10,0,5,0"/>
+                </StackPanel>
+            </RadioButton>
+
+            <Button Width="100" Height="30" HorizontalAlignment="Left" Margin="0,10" Click="Comprobar">Comprobar</Button>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
