@@ -1,0 +1,34 @@
+﻿<Window x:Class="Ejercicio3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel HorizontalAlignment="Left" Width="400">
+
+            <Label FontSize="16" Margin="10" HorizontalAlignment="Center" Content="_Nombre"/>
+            <TextBox FontSize="16" Background="Azure" Width="75" Height="25" Margin="0,0,0,30" TabIndex="1" Name="txtNombre"/>
+
+            <Label FontSize="16" Margin="10" HorizontalAlignment="Center" Content="_Direccion"/>
+            <TextBox FontSize="16" Background="Azure" Width="75" Height="25" TabIndex="3" Name="txtDireccion"/>
+
+        </StackPanel>
+        
+        
+
+        <StackPanel HorizontalAlignment="Right" Width="400">
+
+            <Label FontSize="16" Margin="10" HorizontalAlignment="Center" Content="_Apellido"/>
+            <TextBox FontSize="16" Background="Azure" Width="75" Height="25" Margin="0,0,0,30" TabIndex="2" Name="txtApellido"/>
+
+            <Label FontSize="16" Margin="10" HorizontalAlignment="Center" Content="_Código Postal"/>
+            <TextBox FontSize="16" Background="Azure" Width="75" Height="25" TabIndex="4" Name="txtCodigoP"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
