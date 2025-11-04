@@ -1,0 +1,18 @@
+﻿<Window x:Class="Ejercicio3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBlock>
+            
+            <Span Foreground="Chartreuse" FontFamily="Cambria">El rápido zorro marrón </Span> <Bold> salta sobre el perro perezoso </Bold> <Underline FontSize="20" FontFamily="Candara Light"> mientras el sol </Underline> <Span FontStyle="Oblique" FontStretch="ExtraExpanded"> brilla intensamente en el horizonte.</Span>
+            
+        </TextBlock>
+
+    </Grid>
+</Window>
