@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ejercicio1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="350">
+    <Grid>
+
+        <TextBlock TextWrapping="Wrap" Foreground="Red">Un ratoncillo, caminando en la selva, se encontró un león que dormía. Por accidente, trepó sobre él y lo despertó. El león, enfadado, atrapó al ratón. <Run Foreground="Black">Asustado, el ratón le suplicó al león que no se lo comiera y prometió que le devolvería el favor algún día. 
+El león, divertido por la idea, pensó que un </Run> <Run Foreground="Chocolate"> ratón no podría serle de ayuda jamás. Con una risa, soltó al ratón y lo dejó ir.
+Tiempo después, el león cayó en una trampa de cazadores. La red era </Run> <Run Foreground="Aqua"> muy resistente y no podía escapar. De pronto, oyó una voz que decía: "¡No te preocupes, yo te ayudaré!". 
+El ratón había llegado al lugar. </Run></TextBlock>
+
+    </Grid>
+</Window>
