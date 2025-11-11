@@ -1,0 +1,47 @@
+﻿<Window x:Class="Ejercicio2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <DockPanel>
+
+            <Menu DockPanel.Dock="Top" Height="50" FontFamily="Microsoft Yi Baiti" FontSize="45">
+
+                <MenuItem Header="Restaurante Paquiño" Margin="230,0,10,0">
+                    <MenuItem Header="Inicio"/>
+                    <MenuItem Header="Carta"/>
+                    <MenuItem Header="Reservar"/>
+                    <MenuItem Header="Localización"/>
+                </MenuItem>
+                
+            </Menu>
+
+            <StatusBar DockPanel.Dock="Bottom" Height="50">
+                <Bold FontSize="20">Barra de estado</Bold>
+            </StatusBar>
+
+            <StackPanel DockPanel.Dock="Left" Width="150" Background="LightGray">
+                <Button Content="Mesa 1" Margin="5"/>
+                <Button Content="Mesa 2" Margin="5"/>
+                <Button Content="Mesa 3" Margin="5"/>
+                <Button Content="Mesa 4" Margin="5"/>
+                <Button Content="Mesa 5" Margin="5"/>
+                <Button Content="Mesa 6" Margin="5"/>
+                <Button Content="Mesa 7" Margin="5"/>
+                <Button Content="Mesa 8" Margin="5"/>
+                <Button Content="Mesa 9" Margin="5"/>
+                <Button Content="Mesa 10" Margin="5"/>
+                <Button Content="Mesa 11" Margin="5"/>
+            </StackPanel>
+
+            <TextBlock Text="Elija una mesa" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+
+        </DockPanel>
+
+    </Grid>
+</Window>
