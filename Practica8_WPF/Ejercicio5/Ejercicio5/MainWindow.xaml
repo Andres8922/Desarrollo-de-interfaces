@@ -1,0 +1,44 @@
+﻿<Window x:Class="Ejercicio5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.CommandBindings>
+            <CommandBinding Command="ApplicationCommands.Cut" Executed="CommandCut_Executed" CanExecute="CommandCut_CanExecute"/>
+            <CommandBinding Command="ApplicationCommands.Copy" Executed="Copy_Executed" CanExecute="CommandCopy_CanExecute"/>
+            <CommandBinding Command="ApplicationCommands.Paste" Executed="Paste_Executed" CanExecute="CommandPaste_CanExecute"/>
+        </Grid.CommandBindings>
+
+        <DockPanel Height="25" VerticalAlignment="Top">
+
+            <ToolBarTray>
+                
+                <ToolBar>
+                    <Button Command="ApplicationCommands.Cut" ToolTip="Cortar">
+                        <Image Source="/img/cortar.png" Width="16" Height="16"/>
+                    </Button>
+                    <Button Command="ApplicationCommands.Copy" ToolTip="Copiar">
+                        <Image Source="/img/copiar.png" Width="16" Height="16"/>
+                    </Button>
+                    <Button Command="ApplicationCommands.Paste" ToolTip="Pegar">
+                        <Image Source="/img/pegar.png" Width="16" Height="16"/>
+                    </Button>
+                </ToolBar>
+                
+                <ToolBar>
+                    <Button Click="MenuItem_Click" ToolTip="Esta opción mostrará la información ingresada en una nueva ventana">
+                        <Image Source="/img/mostrar.png" Width="16" Height="16"></Image>
+                    </Button>
+                </ToolBar>
+            </ToolBarTray>
+            
+        </DockPanel>
+
+        <TextBox Name="txtbox" Margin="0,25,0,0"/>
+    </Grid>
+</Window>
