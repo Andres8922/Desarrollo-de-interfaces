@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\restar.png" />
+    <None Remove="img\saldo.png" />
+    <None Remove="img\salir.png" />
+    <None Remove="img\sumar.png" />
+    <None Remove="img\usuario.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\restar.png" />
+    <Resource Include="img\saldo.png" />
+    <Resource Include="img\salir.png" />
+    <Resource Include="img\sumar.png" />
+    <Resource Include="img\usuario.png" />
+  </ItemGroup>
+
+</Project>
