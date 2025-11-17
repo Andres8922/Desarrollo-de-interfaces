@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\copiar.png" />
+    <None Remove="img\cortar.png" />
+    <None Remove="img\guardar.png" />
+    <None Remove="img\nuevo.png" />
+    <None Remove="img\pegar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\copiar.png" />
+    <Resource Include="img\cortar.png" />
+    <Resource Include="img\guardar.png" />
+    <Resource Include="img\nuevo.png" />
+    <Resource Include="img\pegar.png" />
+  </ItemGroup>
+
+</Project>
